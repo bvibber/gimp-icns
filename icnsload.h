@@ -24,5 +24,6 @@
 
 gint32 LoadICNS                  (const gchar *file_name);
 
+#define ICO_DBG 1
 
 #endif
