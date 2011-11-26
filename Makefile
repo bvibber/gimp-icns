@@ -28,5 +28,8 @@ clean :
 	rm -f *.o icns
 
 install : icns
-	cp icns $(HOME)/.gimp-2.2/plug-ins/
+	gimptool-2.0 --install-bin icns
+
+install-local : icns
+	cp icns $(HOME)/.gimp-2.6/plug-ins/
 
